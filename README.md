@@ -1,24 +1,33 @@
-# README
+# Rails GraphQL
+This is a companion repository for a DigitalOcean article on how to use GraphQL in Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
+- Clone the repo by running the command below in your Terminal window:
+```sh
+$ git clone git@github.com:9jaswag/rails_graphql.git
+```
+- Change into the `rails_graphql` directory:
+```sh
+$ cd rails_graphql
+``` 
+- Install all dependencies:
+```sh
+$ bundle install
+```
+- Start the development server:
+```sh
+$ rails server
+```
+You're set to consume any endpoint at `http://localhost:3000/graphql`.
 
-Things you may want to cover:
+## How to contribute
+- Fork this repository.
+- Clone it.
+- Create your feature branch on your local machine with `git checkout -b your-feature-branch`
+- Push your changes to your remote branch with `git push origin your-feature-branch`
+- Open a pull request against the develop branch, and describe how your feature works
 
-* Ruby version
+Want to see new features? Open an [issue](https://github.com/9jaswag/rails_graphql/issues).
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Author
+Chuks Opia. - Software Developer at Andela.
